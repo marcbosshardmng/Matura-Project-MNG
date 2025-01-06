@@ -2,8 +2,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from qiskit.visualization import plot_bloch_vector
-vector1 = [0, 0, 0]
-vector5 = [0, -1, 0]
+vector1 = [0, 0, 0]#I had to set this vector to 0 because I could not customize the vector from qiskit. 
+vector5 = [0, -1, 0]#This vector is plotted with matplotlib where I have way more freedom and can customize more.
 fig = plt.figure(figsize=(8, 8))
 ax = fig.add_subplot(111, projection='3d')
 plot_bloch_vector(vector1, ax=ax)
