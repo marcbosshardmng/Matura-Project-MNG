@@ -3,6 +3,6 @@ The following Code are uploaded:
 -Grover search algorithm with QCrircuits, Qsikit with and without error and with the IBM Brisbane.
 -The magic square game.
 -code for plotting the Bloch sphere with qiskit and matplotlib.
--my databases with one oliver in it.
--the classical approach of seraching through an unsorted database.
+-my databases with one Oliver in it.
+-the classical approach of searching through an unsorted database.
 -drawing a quantum circuit.
