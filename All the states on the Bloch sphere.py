@@ -2,7 +2,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from qiskit.visualization import plot_bloch_vector
-vector1 = [0, 0, 0]
+vector1 = [0, 0, 0]#I had to set this vector to 0 because I could not customize the vector from qiskit. 
 vector2 = [1, 0, 0]
 vector3 = [-1, 0, 0]
 vector4 = [0, 1, 0]
