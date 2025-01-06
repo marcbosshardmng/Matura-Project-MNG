@@ -46,7 +46,7 @@ def grover_algorithm(d, f):
 
 if __name__ == '__main__':
     database = load_database(database_path)
-    target_name = ("Roger")
+    target_name = ("Oliver")
     d = int(np.ceil(np.log2(len(database))))
     f = construct_problem(database, target_name)
     bits = grover_algorithm(d, f)
